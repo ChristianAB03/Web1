@@ -237,14 +237,14 @@ body {
 }
 @media (max-width: 768px) {
     .cards {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Se adaptan al ancho disponible */
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     }
 }
 
 .container {
     display: flex;
-    justify-content: space-between; /* Espacio entre los elementos */
-    align-items: stretch; /* Asegura que los elementos se estiren para tener la misma altura */
+    justify-content: space-between; 
+    align-items: stretch; 
     margin-bottom: 20px;
     gap: 20px;
 }
@@ -271,11 +271,11 @@ body {
 
 .star-products #iPhone14ProMax img,
 .star-products #MacBook img {
-    max-width: calc(23% - 20px); /* Ajusta el ancho máximo considerando el margen */
+    max-width: calc(23% - 20px); 
     height: auto;
     float: left;
     margin-right: 20px;
-    object-fit: contain; /* Cambiado de cover a contain */
+    object-fit: contain; 
     box-sizing: border-box;
 }
 
@@ -360,18 +360,18 @@ body {
 
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Cambia a diseño de columna en pantallas pequeñas */
+        flex-direction: column; 
     }
 
     .star-products,
     .Sign-in {
-        width: 100%; /* Ambos contenedores ocupan el ancho completo */
-        margin: 0 0 20px 0; /* Espacio inferior entre los contenedores */
+        width: 100%; 
+        margin: 0 0 20px 0; 
     }
 
     .buy-button,
     .Sign-in button[type="submit"] {
-        width: 100%; /* Botones ocupan el ancho completo */
+        width: 100%; 
         text-align: center;
     }
 }
